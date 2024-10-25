@@ -13,7 +13,8 @@ $(document).ready(function() {
                 window.location.href = "selamat.html"; // Ganti 'dashboard.html' dengan halaman tujuan
             }, 1000); //  detik delay sebelum pindah halaman
         } else {
-            $('#loginMessage1').text("PENYUSUP");
+            $('#loginMessage1').text("PENYUSUP").css("color", "red");
+
             
             setTimeout(function() {
                 window.location.href = "penyusup.html"; // Ganti 'dashboard.html' dengan halaman tujuan
